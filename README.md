@@ -25,7 +25,7 @@ El conjunto de datos simulado representa el paso de vehículos por diferentes es
 
 Los datos se generan mediante un **productor Kafka (productor_peaje.py)** y son consumidos en tiempo real por **Spark Streaming (consumidor_peaje.py)**.
 
-Arquitectura 
+**Arquitectura** 
 
 1. **Kafka Producer (`productor_peaje.py`)**  
    Genera datos simulados del flujo vehicular y los envía a un *topic* de Kafka.  
@@ -42,9 +42,9 @@ Arquitectura
 4. **Salida de resultados**  
    Los resultados procesados se visualizan en consola o pueden almacenarse en archivos CSV para su análisis posterior.
 
----
 
- Tecnologías utilizadas
+
+ **Tecnologías utilizadas**
 
 - **Apache Kafka 3.7.0**
 - **Apache Spark 3.x (PySpark)**
